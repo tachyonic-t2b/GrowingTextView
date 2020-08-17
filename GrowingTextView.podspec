@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GrowingTextView"
-  s.version          = "0.7.2"
+  s.version          = "0.7.3"
   s.summary          = "A subclass of UITextView. Support auto growing, placeholder and length limit."
   s.swift_version    = "5.0"
 
