@@ -11,6 +11,7 @@ import UIKit
 
 @objc public protocol GrowingTextViewDelegate: UITextViewDelegate {
     @objc optional func textViewDidChangeHeight(_ textView: GrowingTextView, height: CGFloat)
+    @objc optional func textViewDidPaste(_ sender: Any?)
 }
 
 @IBDesignable @objc
